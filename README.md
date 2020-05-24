@@ -39,6 +39,7 @@ http://localhost:8021/multi-threaded-rest/multiply  (to test multiplication)
 http://localhost:8021/multi-threaded-rest/divide    (to test division)
 
 Swagger API is also connected to the service. To test using Swagger, browse the link below:
+
 http://localhost:8021/multi-threaded-rest/swagger-ui.html
 
 That's all about it. Enjoy testing.
