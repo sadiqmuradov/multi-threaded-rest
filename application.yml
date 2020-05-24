@@ -1,0 +1,19 @@
+server:
+  port: 8021
+  servlet:
+    context-path: /multi-threaded-rest
+spring:
+  datasource:
+    hikari:
+      minimum-idle: 1
+      maximum-pool-size: 20
+    url: jdbc:oracle:thin:@//localhost:1521/xe
+    username: sadiq
+    password: sadiq
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
+      enable_lazy_load_no_trans: true
+swagger:
+  host: localhost:8021
