@@ -4,7 +4,7 @@ RUNNING INSTRUCTIONS
 
 It is the Spring Boot Application based on a Rest API to wrap the DNE Online Calculator SOAP service.
 
-To run and test the API, just navigate to the build\libs directory under the repository and put application.yml (build\resources\main) config file there. Adjust JDBC datasource properties according to the test environment and run the following command from a command prompt on Windows or a terminal on Linux or MacOS OSs:
+To run and test the API, just navigate to the root directory of the repository and put application.yml (src\main\resources) config file there. Adjust JDBC datasource properties according to the test environment and run the following command from a command prompt on Windows or a terminal on Linux or MacOS OSs:
 
 java -jar multi-threaded-rest.jar --spring.config.location=application.yml
 
